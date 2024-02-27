@@ -186,3 +186,67 @@ html {
   margin-top: 100px;
   font-size: 35px;
 }
+
+#jobsContainer {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.jobContainer {
+  width: 401px;
+  box-sizing: border-box;
+  padding: 100px 50px;
+}
+
+.rightBorder {
+  border-right: 2px solid black;
+}
+
+.leftBorder {
+  border-left: 2px solid black;
+  /* float: right; */
+}
+
+.jobRight {
+  display: flex;
+  justify-content: right;
+}
+
+.jobImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin: auto -50px;
+}
+
+.jobHorizontalLine {
+  height: 2px;
+  background-color: black;
+  width: 80%;
+}
+
+.jobImage {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+}
+
+.jobImageBorder {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.notFirstJob {
+  margin-top: -400px;
+}
+
+#jobs h1 {
+  font-weight: 100;
+  font-family: "Raleway";
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 100px;
+}
