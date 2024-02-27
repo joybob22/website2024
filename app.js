@@ -16,7 +16,7 @@
                 enable: true
             },
             number: {
-                value: 250
+                value: window.innerWidth < 1000 ? 100 : 250
             },
             opacity: {
                 value: { min: 0.3, max: 1 }
@@ -104,7 +104,7 @@ $('#slickEducationContainer').slick({
     nextArrow: $('.rightArrow')
 });
 
-window.onresize = (event) => {
+window.onresize = function (event) {
     let slidesToShow = 1
 
     if (window.innerWidth > 1250) {

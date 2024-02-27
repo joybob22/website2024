@@ -250,3 +250,56 @@ html {
   text-align: center;
   margin-bottom: 100px;
 }
+
+@media only screen and (max-width: 1000px) {
+  #wordContainer {
+    font-size: 35px;
+  }
+
+  #centerWordContainer {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .horizontalAboutContainer {
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .circlePic {
+    width: 150px;
+    height: 150px;
+  }
+
+  .horizontalAboutSubContainer {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  #jobsContainer {
+    width: auto;
+  }
+
+  .jobContainer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+  }
+
+  .rightBorder {
+    border: none;
+  }
+
+  .leftBorder {
+    border: none;
+  }
+
+  .notFirstJob {
+    margin-top: auto;
+  }
+
+  .jobImageContainer {
+    margin: auto;
+  }
+}
